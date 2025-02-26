@@ -1,0 +1,13 @@
+{
+  "kernel": {
+    "date": "2025-02-26",
+    "name": "Unofficial Spacewar LineageOS Kernel v1.0",
+    "version": "5.4.289-1.0+",
+    "link": "https://github.com/zerofrip/Spacewar_LOS_Kernel/releases/latest/download/Uo_Spacewar_LOS_Kernel.zip",
+    "changelog_url": "https://raw.githubusercontent.com/zerofrip/Spacewar_LOS_Kernel/refs/heads/lineage-22.1/ChangeLog.txt",
+    "sha1": "c1018ebf0af0dde848ebc84cd3f1d0feb9cbc8fa"
+  },
+  "support": {
+    "link": "https://github.com/zerofrip/Spacewar_LOS_Kernel/discussions"
+  }
+}
