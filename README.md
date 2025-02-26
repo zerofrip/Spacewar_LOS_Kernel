@@ -1,4 +1,4 @@
-# Unofficial NOS3.0 Spacewar Kernel
+# Unofficial LineageOS Spacewar Kernel
 
 # Supports updates from the [Franco Kernel Manager](https://play.google.com/store/apps/details?id=com.franco.kernel)
 - https://raw.githubusercontent.com/zerofrip/Spacewar_LOS_Kernel/refs/heads/lineage-22.1/kernel-downloads.json
