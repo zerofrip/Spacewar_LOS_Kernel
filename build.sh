@@ -33,7 +33,7 @@ echo -e "HOME directory is at $HOME_DIR\n"
 
 # Setup Toolchain dir
 if [ $TC_DIR ]; then
-    TC_DIR="/home/zero/work/r530567"
+    TC_DIR="$HOME_DIR/$TC_DIR"
 else
     TC_DIR="$HOME_DIR/tc"
 fi
@@ -42,14 +42,14 @@ echo -e "Toolchain directory is at $TC_DIR\n"
 SECONDS=0 # builtin bash timer
 ZIPNAME="Uo_Spacewar_LOS_Kernel.zip"
 
-CLANG_DIR="$TC_DIR"
+CLANG_DIR="$TC_DIR/r530567"
 AK3_DIR="$HOME/AnyKernel3"
 DEFCONFIG="spacewar_defconfig"
 
 MAKE_PARAMS="O=out ARCH=arm64 CC=clang CLANG_TRIPLE=aarch64-linux-gnu- LLVM=1 LLVM_IAS=1 \
 	CROSS_COMPILE=aarch64-linux-android-"
 
-export PATH="/home/zero/work/r530567/bin:$PATH"
+export PATH="$CLANG_DIR/bin:$PATH"
 
 # Regenerate defconfig, if requested so
 if [ "$FLAG_REGEN_DEFCONFIG" = 'y' ]; then
