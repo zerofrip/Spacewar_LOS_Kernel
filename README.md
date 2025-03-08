@@ -14,7 +14,7 @@
 - LineageOS Kernel
  [Wiktor Rudzki](https://github.com/LineageOS/android_kernel_nothing_sm7325)
 - Reference Kernel
-- [Christian <kimo> B.](https://github.com/kimocoder/android_kernel_nothing_sm7325)
+ [Christian <kimo> B.](https://github.com/kimocoder/android_kernel_nothing_sm7325)
 - Build Script
   [Christian <kimo> B.](https://github.com/kimocoder/android_kernel_nothing_sm7325/blob/nethunter-stable/build.sh)
 - KernelSU-Next
